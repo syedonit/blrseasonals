@@ -1,0 +1,21 @@
+* [33m6c0728e[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;32mbackup-local-working[m[33m)[m Update gitignore
+* [33m492c0da[m Website working locally
+* [33m9b84704[m removed pycache
+* [33m754c7a4[m fixed mysql connection
+[31m|[m * [33m92362fa[m fixed mysql connection
+[31m|[m[31m/[m  
+* [33mf0f1e4e[m clean env variables
+* [33mbc9fa56[m Safe DB config
+* [33mbbe0dd4[m Connected Aiven MySQL
+* [33mc558ed8[m connected aiven mysql
+* [33m772fdf9[m fixed backend api url
+* [33mb54fe93[m add mysql connector
+* [33mc048c2d[m added requirements file
+* [33m7aa6db4[m nextjs ecommerce website
+* [33ma2182c9[m Create index.html
+* [33md137716[m Create CNAME
+* [33m878e05c[m Delete CNAME
+* [33mb69aa79[m Create CNAME
+* [33m376e56b[m Delete CNAME
+* [33mc764391[m Create CNAME
+* [33mc502ad0[m Initial commit
