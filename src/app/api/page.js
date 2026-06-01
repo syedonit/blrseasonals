@@ -20,8 +20,8 @@ export default function Home() {
       try {
 
         const response = await fetch(
-          "https://blrseasonals.onrender.com/products"
-        );
+  "http://127.0.0.1:8000/products"
+);
 
         const data = await response.json();
 
