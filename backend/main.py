@@ -16,7 +16,7 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
+print("DB_HOST =", os.getenv("DB_HOST"))
 def get_db_connection():
     return mysql.connector.connect(
     host=os.getenv("DB_HOST"),
