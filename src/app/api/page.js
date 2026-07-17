@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 // ALL YOUR PRODUCTS FROM MYSQL
 const ALL_PRODUCTS = [
@@ -358,17 +358,7 @@ export default function Home() {
   const [selectedCategory, setSelectedCategory] = useState("All");
   const [cartCount, setCartCount] = useState(0);
 
-  // Get cart count
-  useEffect(() => {
-    const updateCartCount = () => {
-      const cart = JSON.parse(localStorage.getItem("cart") || "[]");
-      setCartCount(cart.length);
-    };
-    updateCartCount();
-    window.addEventListener("storage", updateCartCount);
-    return () => window.removeEventListener("storage", updateCartCount);
-  }, []);
-
+  
   // FILTER PRODUCTS
   const handleFilter = (searchTerm, category) => {
     let updated = [...products];
